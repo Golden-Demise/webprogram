@@ -1,0 +1,31 @@
+.card {
+    box-shadow: 0 2px 3px rgba(0,0,0,.2);
+    opacity: .85;
+    transform: translate(0px, 2px);
+    transition: all .5s ease;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.card:hover {
+    opacity: 1;
+    box-shadow: 0 25px 30px rgba(0,0,0,.2);
+    transform: translate(0px, -5px);
+}
+
+.card-body {
+    background-color: white;
+}
+
+.category-list my-2{
+    position: absolute;
+    top:50%;
+    left:50%;
+}
+
+.price {
+    color: #333;
+    font-weight: 400;
+}
