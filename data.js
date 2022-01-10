@@ -12,10 +12,6 @@ const firebaseConfig = {
 const app = firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 
-const $moreCan=$("#moreCan");
-const $All=$("#All");
-const $total=$("#total");
-const $client=$("#client");
 const $sbtn=$("#sbtn");
 const $sinput=$("#sinput");
 
